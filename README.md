@@ -2,14 +2,14 @@
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![Reports](https://img.shields.io/badge/Reports-347-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
-[![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--07--01-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
+[![Coverage](https://img.shields.io/badge/Window-2026--01--02_to_2026--07--02-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`, the abstract explicitly self-identifies the work as a technical report, or the arXiv comment explicitly labels it as a technical report / tech report and the topic matches large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search
-- Window: `2026-01-01` to `2026-07-01`
+- Window: `2026-01-02` to `2026-07-02`
 - CSV: [data/reports.csv](./data/reports.csv)
 - Total selected: `347`
 
