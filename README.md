@@ -1,20 +1,22 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-347-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
-[![Coverage](https://img.shields.io/badge/Window-2026--01--02_to_2026--07--02-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-346-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Coverage](https://img.shields.io/badge/Window-2026--01--03_to_2026--07--03-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`, the abstract explicitly self-identifies the work as a technical report, or the arXiv comment explicitly labels it as a technical report / tech report and the topic matches large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search
-- Window: `2026-01-02` to `2026-07-02`
+- Window: `2026-01-03` to `2026-07-03`
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `347`
+- Total selected: `346`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
+| 2026-07-02 | [HNSW with Accuracy Guarantees Using Graph Spanners -- A Technical Report](https://arxiv.org/abs/2607.02338) | retrieval / vector search infrastructure |
+| 2026-07-02 | [AdaCount: Training-Free Similarity-Guided Spatial and Feature Adaptation for Zero-Shot Object Counting (arXiv comment: technical report)](https://arxiv.org/abs/2607.02139) | vision foundation model / counting |
 | 2026-06-30 | [GR2 Technical Report](https://arxiv.org/abs/2606.31984) | recommendation / LLM reranking |
 | 2026-06-30 | [SimpleSearch-VL: A Simple Recipe for Multimodal Agentic Deep Search (arXiv comment: technical report)](https://arxiv.org/abs/2606.31504) | multimodal agent / deep search |
 | 2026-06-30 | [Xiaomi-GUI-0 Technical Report](https://arxiv.org/abs/2606.31410) | GUI agent / computer use |
@@ -359,6 +361,3 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-01-05 | [Context-aware Decoding Reduces Hallucination in Query-focused Summarization (arXiv comment: technical report)](https://arxiv.org/abs/2312.14335) | RAG / hallucination reduction |
 | 2026-01-04 | [MOSS Transcribe Diarize Technical Report](https://arxiv.org/abs/2601.01554v5) | audio / speech model |
 | 2026-01-03 | [HyperCLOVA X 32B Think (arXiv comment: technical report)](https://arxiv.org/abs/2601.03286v1) | reasoning LLM |
-| 2026-01-02 | [Opening the Black Box: A Survey on the Mechanisms of Multi-Step Reasoning in Large Language Models (arXiv comment: technical report)](https://arxiv.org/abs/2601.14270) | LLM reasoning / survey |
-| 2026-01-02 | [EXAONE 4.0: Unified Large Language Models Integrating Non-reasoning and Reasoning Modes (abstract self-identifies as technical report)](https://arxiv.org/abs/2507.11407) | LLM training / alignment |
-| 2026-01-02 | [EXAONE 3.5: Series of Large Language Models for Real-world Use Cases (abstract self-identifies as technical report)](https://arxiv.org/abs/2412.04862) | LLM training / alignment |
