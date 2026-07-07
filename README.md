@@ -1,7 +1,7 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-363-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-368-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
 [![Coverage](https://img.shields.io/badge/Window-2026--01--07_to_2026--07--07-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
@@ -9,9 +9,10 @@ Curated large-model `Technical Report`, `Training Report`, and `Tech Report` pap
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`, the abstract explicitly self-identifies the work as a technical report, or the arXiv comment explicitly labels it as a technical report / tech report and the topic matches large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search
-- Window: `2026-01-07` to `2026-07-07`
+- Current audit window: `2026-01-07` to `2026-07-07`
+- Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `363`
+- Total selected: `368`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
@@ -378,3 +379,8 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-01-07 | [IndexTTS 2.5 Technical Report](https://arxiv.org/abs/2601.03888v3) | audio / speech model |
 | 2026-01-07 | [Back to Basics: Let Denoising Generative Models Denoise (arXiv comment: tech report)](https://arxiv.org/abs/2511.13720) | diffusion / generative model |
 | 2026-01-07 | [Beyond Scaling: Measuring and Predicting the Upper Bound of Knowledge Retention in Language Model Pre-Training (abstract self-identifies as technical report)](https://arxiv.org/abs/2502.04066) | LLM pretraining / knowledge retention |
+| 2026-01-06 | [MMFormalizer: Multimodal Autoformalization in the Wild (arXiv comment: technical report)](https://arxiv.org/abs/2601.03017v1) | multimodal formalization |
+| 2026-01-06 | [DoPE: Denoising Rotary Position Embedding (arXiv comment: technical report)](https://arxiv.org/abs/2511.09146) | LLM architecture / RoPE |
+| 2026-01-05 | [HyperCLOVA X 8B Omni (arXiv comment: technical report)](https://arxiv.org/abs/2601.01792v1) | multimodal / omni LLM |
+| 2026-01-05 | [Context-aware Decoding Reduces Hallucination in Query-focused Summarization (arXiv comment: technical report)](https://arxiv.org/abs/2312.14335) | RAG / hallucination reduction |
+| 2026-01-03 | [HyperCLOVA X 32B Think (arXiv comment: technical report)](https://arxiv.org/abs/2601.03286v1) | reasoning LLM |
