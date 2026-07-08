@@ -1,21 +1,24 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-368-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
-[![Coverage](https://img.shields.io/badge/Window-2026--01--07_to_2026--07--07-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-381-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Coverage](https://img.shields.io/badge/Window-2026--01--08_to_2026--07--08-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`, the abstract explicitly self-identifies the work as a technical report, or the arXiv comment explicitly labels it as a technical report / tech report and the topic matches large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search
-- Current audit window: `2026-01-07` to `2026-07-07`
+- Current audit window: `2026-01-08` to `2026-07-08`
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `368`
+- Total selected: `381`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
+| 2026-07-07 | [Harrison.Rad 1.5 Technical Report: A radiology foundation model that can draft reports from images, priors and clinical context](https://arxiv.org/abs/2607.05880v1) | medical multimodal foundation model |
+| 2026-07-06 | [aiAuthZ: Off-Host, Identity-Bound Authorization for AI Agents (arXiv comment: technical report)](https://arxiv.org/abs/2607.05518v1) | agent authorization / security |
+| 2026-07-06 | [KAT-Coder-V2.5 Technical Report](https://arxiv.org/abs/2607.05471v1) | coding agent / post-training |
 | 2026-07-06 | [Multiplayer Interactive World Models with Representation Autoencoders (arXiv comment: technical report)](https://arxiv.org/abs/2607.05352) | world model / game simulation |
 | 2026-07-06 | [Vision Pretraining for Dense Spatial Perception (arXiv comment: tech report)](https://arxiv.org/abs/2607.05247) | visual foundation model / dense perception |
 | 2026-07-05 | [MRMS: A Multi-Resolution Memory Substrate for Long-Lived AI Agents (arXiv comment: technical report)](https://arxiv.org/abs/2607.04617) | agent memory |
@@ -31,6 +34,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-07-02 | [AdaCount: Training-Free Similarity-Guided Spatial and Feature Adaptation for Zero-Shot Object Counting (arXiv comment: technical report)](https://arxiv.org/abs/2607.02139) | vision foundation model / counting |
 | 2026-07-01 | [H-OPD: Confidence Aware Heterogeneous Multi-Teacher Multimodal On-policy Distillation (arXiv comment: technical report)](https://arxiv.org/abs/2607.02592) | multimodal reasoning / distillation |
 | 2026-07-01 | [Revisiting Chain-of-Thought Reasoning under Limited Supervision: Semi-supervised Chain-of-Thought Learning (arXiv comment: tech report)](https://arxiv.org/abs/2607.01511) | LLM reasoning / semi-supervised CoT |
+| 2026-07-01 | [From Runtime Records to Legal Findings: An Evidentiary-Adequacy Criterion for Agentic AI Oversight (arXiv comment: technical report)](https://arxiv.org/abs/2607.00941v1) | agent oversight / audit logs |
 | 2026-06-30 | [GR2 Technical Report](https://arxiv.org/abs/2606.31984) | recommendation / LLM reranking |
 | 2026-06-30 | [SimpleSearch-VL: A Simple Recipe for Multimodal Agentic Deep Search (arXiv comment: technical report)](https://arxiv.org/abs/2606.31504) | multimodal agent / deep search |
 | 2026-06-30 | [Xiaomi-GUI-0 Technical Report](https://arxiv.org/abs/2606.31410) | GUI agent / computer use |
@@ -86,6 +90,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-06-04 | [F3-Tokenizer: Taming Audio Autoencoder Latents for Understanding and Generation (arXiv comment: technical report)](https://arxiv.org/abs/2606.06357v1) | audio tokenizer |
 | 2026-06-04 | [OneReason Technical Report](https://arxiv.org/abs/2606.06260v1) | recommendation / reasoning |
 | 2026-06-03 | [AgentJet: A Flexible Swarm Training Framework for Agentic Reinforcement Learning (arXiv comment: technical report)](https://arxiv.org/abs/2606.04484v1) | agent RL framework |
+| 2026-06-02 | [HRNN: A Hybrid Graph Index for Approximate Reverse k-Nearest Neighbor Search on High-Dimensional Vectors (arXiv comment: technical report)](https://arxiv.org/abs/2606.03225v1) | retrieval / vector search infrastructure |
 | 2026-06-01 | [Cosmos 3: Omnimodal World Models for Physical AI (abstract self-identifies as technical report)](https://arxiv.org/abs/2606.02800v2) | embodied world model / VLA |
 | 2026-06-01 | [SoulX-Transcriber: A Robust End-to-End Framework for Multi-Speaker Speech Transcription (abstract self-identifies as technical report)](https://arxiv.org/abs/2606.02400v2) | audio / speech model |
 | 2026-06-01 | [MOSS-Audio Technical Report](https://arxiv.org/abs/2606.01802v3) | audio / speech model |
@@ -111,8 +116,10 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-05-26 | [Laguna M.1/XS.2 Technical Report](https://arxiv.org/abs/2605.27605v1) | agent / deep research |
 | 2026-05-26 | [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence (arXiv comment: technical report)](https://arxiv.org/abs/2605.26494v1) | agentic LLM / MoE |
 | 2026-05-26 | [LongCat-Video-Avatar 1.5 Technical Report](https://arxiv.org/abs/2605.26486v1) | audio-driven video generation |
+| 2026-05-26 | [Generalized Range Filtering Approximate Nearest Neighbor Search: Containment and Overlap [Technical Report]](https://arxiv.org/abs/2605.26474v1) | retrieval / filtered ANN infrastructure |
 | 2026-05-25 | [Llamion Technical Report](https://arxiv.org/abs/2605.25676v1) | code / software agent |
 | 2026-05-25 | [ERNIE-Image Technical Report](https://arxiv.org/abs/2605.25347v1) | image generation |
+| 2026-05-24 | [Evidence-Linked Radiology Reporting: A Human-Supervised Reference Architecture for Structured Imaging Intelligence (arXiv comment: technical report)](https://arxiv.org/abs/2605.25120v1) | medical AI / radiology reporting |
 | 2026-05-22 | [StepAudio 2.5 Technical Report](https://arxiv.org/abs/2605.23463v1) | audio / speech model |
 | 2026-05-21 | [Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention (arXiv comment: technical report)](https://arxiv.org/abs/2605.22791v1) | linear attention / architecture |
 | 2026-05-21 | [ChronoVAE-HOPE: Beyond Attention -- A Next-Generation VAE Foundation Model for Specialized Time Series Classification (abstract self-identifies as technical report)](https://arxiv.org/abs/2605.22684v2) | tabular / time-series foundation model |
@@ -150,6 +157,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-05-07 | [Sparkle: Realizing Lively Instruction-Guided Video Background Replacement via Decoupled Guidance (arXiv comment: tech report)](https://arxiv.org/abs/2605.06535v1) | video background replacement |
 | 2026-05-07 | [Cubit: Token Mixer with Kernel Ridge Regression (arXiv comment: tech report)](https://arxiv.org/abs/2605.06501v2) | token mixer / architecture |
 | 2026-05-07 | [A Case-Driven Multi-Agent Framework for E-Commerce Search Relevance (arXiv comment: tech report)](https://arxiv.org/abs/2605.05991v1) | e-commerce search agent |
+| 2026-05-07 | [Low-Latency Out-of-Core ANN Search in High-Dimensional Space (arXiv comment: technical report)](https://arxiv.org/abs/2605.05787v1) | retrieval / vector search infrastructure |
 | 2026-05-07 | [X-OmniClaw Technical Report: A Unified Mobile Agent for Multimodal Understanding and Interaction](https://arxiv.org/abs/2605.05765v2) | robotics / VLA |
 | 2026-05-06 | [ZAYA1-8B Technical Report](https://arxiv.org/abs/2605.05365v1) | code / software agent |
 | 2026-05-06 | [Storage Is Not Memory: A Retrieval-Centered Architecture for Agent Recall (arXiv comment: technical report)](https://arxiv.org/abs/2605.04897v1) | agent memory |
@@ -189,6 +197,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-04-21 | [Auditing LLMs for Algorithmic Fairness in Casenote-Augmented Tabular Prediction (abstract self-identifies as technical report)](https://arxiv.org/abs/2604.19204v1) | LLM evaluation / fairness |
 | 2026-04-21 | [MiroThinker: Pushing the Performance Boundaries of Open-Source Research Agents via Model, Context, and Interactive Scaling (arXiv comment: technical report)](https://arxiv.org/abs/2511.11793) | agent / deep research |
 | 2026-04-20 | [Xiaomi OneVL: One-Step Latent Reasoning and Planning with Vision-Language Explanation (arXiv comment: technical report)](https://arxiv.org/abs/2604.18486v3) | robotics / VLA |
+| 2026-04-20 | [Balanced Co-Clustering of Users and Items for Embedding Table Compression in Recommender Systems (arXiv comment: technical report)](https://arxiv.org/abs/2604.18351v1) | recommendation / embedding compression |
 | 2026-04-20 | [DuQuant++: Fine-grained Rotation Enhances Microscaling FP4 Quantization (arXiv comment: technical report)](https://arxiv.org/abs/2604.17789v2) | LLM quantization |
 | 2026-04-19 | [PoliLegalLM: A Technical Report on a Large Language Model for Political and Legal Affairs](https://arxiv.org/abs/2604.17543v1) | domain / security / legal LLM |
 | 2026-04-19 | [Jupiter-N Technical Report](https://arxiv.org/abs/2604.17429v1) | agent / deep research |
@@ -230,6 +239,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-03-30 | [Synergy: A Next-Generation General-Purpose Agent for Open Agentic Web (arXiv comment: tech report)](https://arxiv.org/abs/2603.28428v1) | general-purpose web agent |
 | 2026-03-29 | [KAT-Coder-V2 Technical Report](https://arxiv.org/abs/2603.27703v1) | code / software agent |
 | 2026-03-29 | [LongCat-Next: Lexicalizing Modalities as Discrete Tokens (arXiv comment: technical report)](https://arxiv.org/abs/2603.27538v1) | multimodal tokenization |
+| 2026-03-28 | [SkillTester: Benchmarking Utility and Security of Agent Skills (arXiv comment: technical report)](https://arxiv.org/abs/2603.28815v1) | agent skill evaluation / security |
 | 2026-03-27 | [AMALIA Technical Report: A Fully Open Source Large Language Model for European Portuguese](https://arxiv.org/abs/2603.26511v1) | LLM training / alignment |
 | 2026-03-25 | [Composer 2 Technical Report](https://arxiv.org/abs/2603.24477v2) | agent / deep research |
 | 2026-03-24 | [SpecXMaster Technical Report](https://arxiv.org/abs/2603.23101v2) | agent / deep research |
@@ -290,6 +300,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-02-23 | [LocateAnything3D: Vision-Language 3D Detection with Chain-of-Sight (arXiv comment: tech report)](https://arxiv.org/abs/2511.20648) | 3D detection / VLM |
 | 2026-02-22 | [GenesisGeo: Technical Report](https://arxiv.org/abs/2509.21896) | geometry reasoning / VLM |
 | 2026-02-20 | [Scaling Audio-Text Retrieval with Multimodal Large Language Models (arXiv comment: technical report)](https://arxiv.org/abs/2602.18010v1) | audio-text retrieval / MLLM |
+| 2026-02-19 | [Multiple Index Merge for Approximate Nearest Neighbor Search (arXiv comment: technical report)](https://arxiv.org/abs/2602.17099v1) | retrieval / vector index infrastructure |
 | 2026-02-19 | [Arcee Trinity Large Technical Report](https://arxiv.org/abs/2602.17004v1) | LLM / foundation model |
 | 2026-02-17 | [Language and Geometry Grounded Sparse Voxel Representations for Holistic Scene Understanding (arXiv comment: technical report)](https://arxiv.org/abs/2602.15734v1) | 3D scene understanding |
 | 2026-02-17 | [LuxMT Technical Report](https://arxiv.org/abs/2602.15506v1) | domain / multilingual LLM |
@@ -349,6 +360,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-01-26 | [Yunjue Agent Tech Report: A Fully Reproducible, Zero-Start In-Situ Self-Evolving Agent System for Open-Ended Tasks](https://arxiv.org/abs/2601.18226v2) | self-evolving agent |
 | 2026-01-26 | [VIBEVOICE-ASR Technical Report](https://arxiv.org/abs/2601.18184v2) | audio / speech model |
 | 2026-01-25 | [Streaming-dLLM: Accelerating Diffusion LLMs via Suffix Pruning and Dynamic Decoding (arXiv comment: tech report)](https://arxiv.org/abs/2601.17917v2) | diffusion LLM decoding |
+| 2026-01-25 | [Masked Depth Modeling for Spatial Perception (arXiv comment: tech report)](https://arxiv.org/abs/2601.17895v1) | visual foundation model / depth perception |
 | 2026-01-24 | [C-RADIOv4 (Tech Report)](https://arxiv.org/abs/2601.17237v1) | vision foundation model |
 | 2026-01-23 | [VeRA: Verified Reasoning Data Augmentation at Scale (arXiv comment: technical report)](https://arxiv.org/abs/2602.13217v1) | reasoning data generation |
 | 2026-01-23 | [iFSQ: Improving FSQ for Image Generation with 1 Line of Code (arXiv comment: technical report)](https://arxiv.org/abs/2601.17124v2) | image tokenizer |
@@ -357,6 +369,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-01-22 | [Qwen3-TTS Technical Report](https://arxiv.org/abs/2601.15621v1) | audio / speech model |
 | 2026-01-20 | [RoboBrain 2.5: Depth in Sight, Time in Mind (arXiv comment: technical report)](https://arxiv.org/abs/2601.14352v1) | robotics / VLA |
 | 2026-01-20 | [Fun-Audio-Chat Technical Report](https://arxiv.org/abs/2512.20156) | audio / speech model |
+| 2026-01-19 | [Typhoon ASR Real-time: FastConformer-Transducer for Thai Automatic Speech Recognition (arXiv comment: technical report)](https://arxiv.org/abs/2601.13044v1) | audio / speech model |
 | 2026-01-18 | [MOSS Transcribe Diarize Technical Report](https://arxiv.org/abs/2601.01554) | audio / speech model |
 | 2026-01-18 | [QianfanHuijin Technical Report: A Novel Multi-Stage Training Paradigm for Finance Industrial LLMs](https://arxiv.org/abs/2512.24314) | finance domain LLM |
 | 2026-01-17 | [MuseAgent-1: Interactive Grounded Multimodal Understanding of Music Scores and Performance Audio (arXiv comment: tech report)](https://arxiv.org/abs/2601.11968v1) | music-score/audio multimodal agent |
