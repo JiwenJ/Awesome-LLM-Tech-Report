@@ -1,21 +1,24 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-381-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
-[![Coverage](https://img.shields.io/badge/Window-2026--01--08_to_2026--07--08-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-386-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Coverage](https://img.shields.io/badge/Window-2026--01--10_to_2026--07--10-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`, the abstract explicitly self-identifies the work as a technical report, or the arXiv comment explicitly labels it as a technical report / tech report and the topic matches large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search
-- Current audit window: `2026-01-08` to `2026-07-08`
+- Current audit window: `2026-01-10` to `2026-07-10`
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `381`
+- Total selected: `386`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
+| 2026-07-09 | [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370v2) | robotics / behavior foundation model |
+| 2026-07-08 | [Infinity-Parser2 Technical Report](https://arxiv.org/abs/2607.07836v1) | OCR / document understanding |
+| 2026-07-07 | [The Power of Backdoor Absorption in Community Training (arXiv comment: technical report)](https://arxiv.org/abs/2607.06643v1) | large-model training / security |
 | 2026-07-07 | [Harrison.Rad 1.5 Technical Report: A radiology foundation model that can draft reports from images, priors and clinical context](https://arxiv.org/abs/2607.05880v1) | medical multimodal foundation model |
 | 2026-07-06 | [aiAuthZ: Off-Host, Identity-Bound Authorization for AI Agents (arXiv comment: technical report)](https://arxiv.org/abs/2607.05518v1) | agent authorization / security |
 | 2026-07-06 | [KAT-Coder-V2.5 Technical Report](https://arxiv.org/abs/2607.05471v1) | coding agent / post-training |
@@ -249,6 +252,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-03-20 | [Leum-VL Technical Report](https://arxiv.org/abs/2603.20354v1) | multimodal / VLM |
 | 2026-03-20 | [X-World: Controllable Ego-Centric Multi-Camera World Models for Scalable End-to-End Driving (arXiv comment: technical report)](https://arxiv.org/abs/2603.19979v2) | driving world model |
 | 2026-03-20 | [BEAVER: A Training-Free Hierarchical Prompt Compression Method via Structure-Aware Page Selection (arXiv comment: technical report)](https://arxiv.org/abs/2603.19635v1) | prompt compression |
+| 2026-03-19 | [Responsible AI Technical Report](https://arxiv.org/abs/2509.20057v4) | AI safety / guardrails |
 | 2026-03-19 | [BubbleRAG: Evidence-Driven Retrieval-Augmented Generation for Black-Box Knowledge Graphs (arXiv comment: technical report)](https://arxiv.org/abs/2603.20309v1) | RAG |
 | 2026-03-19 | [Revisiting Autoregressive Models for Generative Image Classification (arXiv comment: tech report)](https://arxiv.org/abs/2603.19122v1) | autoregressive image classification |
 | 2026-03-19 | [ClawTrap: A MITM-Based Red-Teaming Framework for Real-World OpenClaw Security Evaluation (arXiv comment: technical report)](https://arxiv.org/abs/2603.18762) | agent security / red-teaming |
@@ -338,6 +342,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-02-04 | [Protein Autoregressive Modeling via Multiscale Structure Generation (arXiv comment: tech report)](https://arxiv.org/abs/2602.04883v2) | protein autoregressive model |
 | 2026-02-04 | [ERNIE 5.0 Technical Report](https://arxiv.org/abs/2602.04705v1) | multimodal / VLM |
 | 2026-02-04 | [OpenOneRec Technical Report](https://arxiv.org/abs/2512.24762) | recommendation / generative foundation model |
+| 2026-02-03 | [Quantization Meets Projection: A Happy Marriage for Approximate k-Nearest Neighbor Search (arXiv comment: technical report)](https://arxiv.org/abs/2411.06158v4) | retrieval / vector search infrastructure |
 | 2026-02-03 | [SWE-Master: Unleashing the Potential of Software Engineering Agents via Post-Training (abstract self-identifies as technical report)](https://arxiv.org/abs/2602.03411v2) | agent / deep research |
 | 2026-02-02 | [Kimi K2.5: Visual Agentic Intelligence (arXiv comment: tech report)](https://arxiv.org/abs/2602.02276v1) | visual agentic intelligence |
 | 2026-02-02 | [Kimi K2: Open Agentic Intelligence (arXiv comment: tech report)](https://arxiv.org/abs/2507.20534) | agentic LLM / MoE |
