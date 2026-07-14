@@ -1,21 +1,27 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-386-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
-[![Coverage](https://img.shields.io/badge/Window-2026--01--10_to_2026--07--10-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-392-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--07--14-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`, the abstract explicitly self-identifies the work as a technical report, or the arXiv comment explicitly labels it as a technical report / tech report and the topic matches large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search
-- Current audit window: `2026-01-10` to `2026-07-10`
+- Current audit window: `2026-01-01` to `2026-07-14`
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `386`
+- Total selected: `392`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
+| 2026-07-13 | [Qwen-Audio-VAE Technical Report](https://arxiv.org/abs/2607.11738v1) | audio / audio tokenizer |
+| 2026-07-13 | [Qwen-Music Technical Report](https://arxiv.org/abs/2607.11699v1) | audio / music generation |
+| 2026-07-13 | [Prompt Generation Technical Report](https://arxiv.org/abs/2607.11326v1) | generative retrieval / training-serving infrastructure |
+| 2026-07-10 | [Index SLM Technical Report](https://arxiv.org/abs/2607.09885v1) | small language model / LLM training |
+| 2026-07-10 | [FreyaTTS Technical Report](https://arxiv.org/abs/2607.09530v1) | audio / speech model |
+| 2026-07-10 | [Mach-Mind-4-Flash Technical Report](https://arxiv.org/abs/2607.09375v1) | agentic LLM / post-training |
 | 2026-07-09 | [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370v2) | robotics / behavior foundation model |
 | 2026-07-08 | [Infinity-Parser2 Technical Report](https://arxiv.org/abs/2607.07836v1) | OCR / document understanding |
 | 2026-07-07 | [The Power of Backdoor Absorption in Community Training (arXiv comment: technical report)](https://arxiv.org/abs/2607.06643v1) | large-model training / security |
