@@ -1,24 +1,29 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-510-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
-[![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--07--30-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-514-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--08--02-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`; the abstract or arXiv comment explicitly self-identifies the work as a technical report / tech report; or the official report PDF, publisher page, or originating lab page explicitly labels it as a technical report. The topic must match large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search; official publisher/lab pages and report PDFs are used to verify report status when arXiv metadata omits it.
-- Current audit window: `2026-01-01` to `2026-07-30`
+- Current audit window: `2026-01-01` to `2026-08-02`
 - Date convention: `published` records the arXiv version date used by the audit (the latest revision date when a revision exists). For reports without an arXiv record, it records the official release date.
 - Official-only reports use a stable slug in `id`; `categories` is left blank when no arXiv classification exists.
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `510`
+- Total selected: `514`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
-| 2026-07-29 | [Qwen-Audio-3.0-Gen-Preview Technical Report](https://arxiv.org/abs/2607.27011v1) | audio / unified audio generation |
+| 2026-07-30 | [Qwen-Audio-3.0-Gen-Preview Technical Report](https://arxiv.org/abs/2607.27011v2) | audio / unified audio generation |
+| 2026-07-30 | [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence (arXiv comment: technical report)](https://arxiv.org/abs/2605.26494v2) | agentic LLM / MoE |
+| 2026-07-30 | [Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents](https://arxiv.org/abs/2607.28227v1) | GUI agent / SFT and online RL |
+| 2026-07-30 | [Teffic-Audio: Tell Fact from Fiction (arXiv comment: technical report)](https://arxiv.org/abs/2607.28351v1) | audio / speech deepfake detection |
+| 2026-07-30 | [Echoverse: Deep, Evolving Environments for Training Computer-Use Agents at Scale (official Microsoft Research Technical Report)](https://arxiv.org/abs/2607.28074v1) | computer-use agent / SFT and RL environments |
+| 2026-07-30 | [Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering (official Frontis Technical Report)](https://arxiv.org/abs/2607.28568v1) | agentic LLM / execution-grounded SFT and RL |
 | 2026-07-29 | [Voice Memory for Agentic Speech Recognition (arXiv comment: technical report)](https://arxiv.org/abs/2607.26410v1) | agentic ASR / inference-time memory |
 | 2026-07-29 | [Pangram 4 Technical Report](https://arxiv.org/abs/2607.27183v1) | LLM safety / AI-generated-text detection |
 | 2026-07-28 | [Weak-to-Strong On-Policy Distillation (arXiv comment: technical report)](https://arxiv.org/abs/2607.26246v1) | LLM post-training / on-policy distillation |
@@ -190,7 +195,6 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-05-26 | [Darwin Mobile Agent: A Roadmap for Self-Evolution (arXiv comment: technical report)](https://arxiv.org/abs/2606.20622v1) | GUI agent / self-evolution |
 | 2026-05-26 | [Reflective Dialogue between Teacher and Solver Agents for Video Question Answering (abstract self-identifies as technical report)](https://arxiv.org/abs/2605.27885) | video QA / VLM adaptation |
 | 2026-05-26 | [Laguna M.1/XS.2 Technical Report](https://arxiv.org/abs/2605.27605v1) | agent / deep research |
-| 2026-05-26 | [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence (arXiv comment: technical report)](https://arxiv.org/abs/2605.26494v1) | agentic LLM / MoE |
 | 2026-05-26 | [LongCat-Video-Avatar 1.5 Technical Report](https://arxiv.org/abs/2605.26486v1) | audio-driven video generation |
 | 2026-05-26 | [Generalized Range Filtering Approximate Nearest Neighbor Search: Containment and Overlap [Technical Report]](https://arxiv.org/abs/2605.26474v1) | retrieval / filtered ANN infrastructure |
 | 2026-05-25 | [Llamion Technical Report](https://arxiv.org/abs/2605.25676v1) | code / software agent |
