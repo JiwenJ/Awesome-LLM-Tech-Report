@@ -1,23 +1,32 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-514-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
-[![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--08--02-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-520-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--08--04-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`; the abstract or arXiv comment explicitly self-identifies the work as a technical report / tech report; or the official report PDF, publisher page, or originating lab page explicitly labels it as a technical report. The topic must match large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search; official publisher/lab pages and report PDFs are used to verify report status when arXiv metadata omits it.
-- Current audit window: `2026-01-01` to `2026-08-02`
+- Current audit window: `2026-01-01` to `2026-08-04`
 - Date convention: `published` records the arXiv version date used by the audit (the latest revision date when a revision exists). For reports without an arXiv record, it records the official release date.
 - Official-only reports use a stable slug in `id`; `categories` is left blank when no arXiv classification exists.
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `514`
+- Total selected: `520`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
+| 2026-08-03 | [Weak-to-Strong On-Policy Distillation (arXiv comment: technical report)](https://arxiv.org/abs/2607.26246v2) | LLM post-training / on-policy distillation |
+| 2026-08-03 | [WanSong v1.0 Technical Report](https://arxiv.org/abs/2607.14749v4) | audio / music generation |
+| 2026-08-03 | [Antares: Foundation Models for Agentic Vulnerability Localization (official Cisco Technical Report)](https://arxiv.org/abs/2608.02407v1) | cybersecurity LLM / agentic code localization |
+| 2026-08-03 | [Qwen-CUA: Native Computer Use for (almost) Everything (arXiv comment: technical report)](https://arxiv.org/abs/2608.02352v1) | computer-use agent / SFT and verifiable RL |
+| 2026-08-03 | [Douyin Multimodal Embedding Model Technical Report](https://arxiv.org/abs/2608.02148v1) | multimodal embedding / contrastive pretraining |
+| 2026-08-03 | [Cross-Domain Hybrid OPD for Generalizable Search Agents (abstract self-identifies as technical report)](https://arxiv.org/abs/2608.02101v1) | search agent / RL and on-policy distillation |
+| 2026-08-03 | [SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks (arXiv comment: technical report)](https://arxiv.org/abs/2608.02023v1) | audio generation / curriculum and GRPO post-training |
+| 2026-08-02 | [Opt.Gear Technical Report](https://arxiv.org/abs/2608.01034v1) | edge LLM / pretraining and supervised fine-tuning |
+| 2026-07-31 | [DiffusionGemma Technical Report](https://arxiv.org/abs/2608.00146v1) | diffusion LLM / SFT, RL and sampler distillation |
 | 2026-07-30 | [Qwen-Audio-3.0-Gen-Preview Technical Report](https://arxiv.org/abs/2607.27011v2) | audio / unified audio generation |
 | 2026-07-30 | [The MiniMax-M2 Series: Mini Activations Unleashing Max Real-World Intelligence (arXiv comment: technical report)](https://arxiv.org/abs/2605.26494v2) | agentic LLM / MoE |
 | 2026-07-30 | [Qwen-UI-Agent Technical Report: Toward Next-Generation Real-World Centric Foundation GUI Agents](https://arxiv.org/abs/2607.28227v1) | GUI agent / SFT and online RL |
@@ -26,7 +35,6 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-07-30 | [Frontis-MA1: Training an AI4AI Model towards Recursive Self-Improvement in Machine Learning Engineering (official Frontis Technical Report)](https://arxiv.org/abs/2607.28568v1) | agentic LLM / execution-grounded SFT and RL |
 | 2026-07-29 | [Voice Memory for Agentic Speech Recognition (arXiv comment: technical report)](https://arxiv.org/abs/2607.26410v1) | agentic ASR / inference-time memory |
 | 2026-07-29 | [Pangram 4 Technical Report](https://arxiv.org/abs/2607.27183v1) | LLM safety / AI-generated-text detection |
-| 2026-07-28 | [Weak-to-Strong On-Policy Distillation (arXiv comment: technical report)](https://arxiv.org/abs/2607.26246v1) | LLM post-training / on-policy distillation |
 | 2026-07-27 | [Qwen-Music Technical Report](https://arxiv.org/abs/2607.11699v2) | audio / music generation |
 | 2026-07-27 | [Kimi K3: Open Frontier Intelligence (official Kimi Technical Report)](https://arxiv.org/abs/2607.24653v1) | frontier multimodal LLM / pretraining and agentic RL |
 | 2026-07-27 | [Reasoning to Regulate: Chain-of-Thought for Traffic Rule Understanding (arXiv comment: technical report)](https://arxiv.org/abs/2607.24199v1) | autonomous-driving VLM / SFT and RL |
@@ -39,14 +47,12 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-07-24 | [Gemma 4 Technical Report](https://arxiv.org/abs/2607.02770v2) | multimodal LLM / MoE |
 | 2026-07-24 | [AI4AI at Scale: A Full-Pipeline System for Enhancing LLM Agentic Capabilities (official XYZ AI Lab Technical Report)](https://xyz-lab.ai/blogs/ai4ai-at-scale/assets/bounded-exploration-ai4ai-system-optimization.pdf) | agentic LLM / full-pipeline post-training |
 | 2026-07-24 | [Solar Open 2 Technical Report](https://arxiv.org/abs/2607.20062v2) | agentic LLM / pretraining and on-policy distillation |
-| 2026-07-23 | [WanSong v1.0 Technical Report](https://arxiv.org/abs/2607.14749v3) | audio / music generation |
 | 2026-07-22 | [Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning (arXiv comment: tech report)](https://arxiv.org/abs/2607.21653v1) | agent RL training framework |
 | 2026-07-21 | [AgentJet: A Distributed Swarm Training Framework for Agentic Reinforcement Learning (arXiv comment: technical report)](https://arxiv.org/abs/2606.04484v2) | agent RL framework |
 | 2026-07-21 | [LinguistAgent Technical Report: A Reflective Multi-Model Platform for Automated Linguistic Annotation](https://arxiv.org/abs/2602.05493v2) | LLM agent platform / linguistic annotation |
 | 2026-07-21 | [Mi-Memory: A Lifecycle Memory Framework for Personal AI (abstract self-identifies as technical report)](https://arxiv.org/abs/2607.18975v1) | agent memory / personal AI |
 | 2026-07-21 | [Generative World Renderer at the Speed of Play (abstract self-identifies as technical report)](https://arxiv.org/abs/2607.18703v1) | world model / real-time rendering |
 | 2026-07-21 | [HOMIE: Human-object Centric Video Personalization via Multimodal Intelligent Enhancement (official HOMIE Technical Report)](https://arxiv.org/abs/2607.18217v2) | video generation / subject personalization |
-| 2026-07-21 | [Antares: Foundation Models for Agentic Vulnerability Localization (official Cisco Technical Report)](https://cisco-foundation-ai.github.io/antares/technical-report.pdf) | cybersecurity LLM / agentic code localization |
 | 2026-07-20 | [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack (official Tencent Technical Report)](https://arxiv.org/abs/2606.14409v2) | robotics / VLA |
 | 2026-07-20 | [FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention (arXiv comment: technical report)](https://arxiv.org/abs/2606.09079v3) | long-context / sparse attention |
 | 2026-07-20 | [SpecXMaster Technical Report](https://arxiv.org/abs/2603.23101v3) | agent / deep research |
