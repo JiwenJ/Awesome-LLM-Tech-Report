@@ -1,25 +1,66 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-620-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
-[![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--09--01-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-659-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--09--10-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`; the abstract or arXiv comment explicitly self-identifies the work as a technical report / tech report; or the official report PDF, publisher page, or originating lab page explicitly labels it as a technical report. The topic must match large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
 - Source: arXiv API/search; official publisher/lab pages and report PDFs are used to verify report status when arXiv metadata omits it.
-- Current audit window: `2026-01-01` to `2026-09-01`
+- Current audit window: `2026-01-01` to `2026-09-10`
 - Date convention: `published` records the arXiv version date used by the audit (the latest revision date when a revision exists). For reports without an arXiv record, it records the official release date.
 - Official-only reports use a stable slug in `id`; `categories` is left blank when no arXiv classification exists.
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `620`
+- Total selected: `659`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
+| 2026-09-10 | [DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression](https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/53e70b17d9acb8e0c423f0e4fe5702f25562b63d/DeepSeek_V41_Tech_Report.pdf) | multimodal MoE / KV-cache-efficient long-context pretraining and agentic post-training |
+| 2026-09-10 | [ECHELON: continuity for a model that cannot keep its context](https://github.com/echelon-project/echelon-research/blob/61e67ddae0123e94f2c9709f20175d71fa915498/THESIS.md) | agent memory / long-horizon model continuity |
+| 2026-09-09 | [Unlocking the Power of LLM Reasoning in Antibody Design with OpenDDE-Harness](https://github.com/aurekaresearch/OpenDDE-Harness/blob/e9ab45154fa314bba4ae455a1a9a4a1e2069ba37/docs/assets/OpenDDE_harness_tech_report.pdf) | scientific agent system / LLM-guided antibody design and structure-feedback infrastructure |
+| 2026-09-09 | [Light REACT: Building Resilient Whole-Body Intelligence for Scalable Deployment](https://www.lightorigins.com/en/blog/light-react) | humanoid control / teacher RL, multi-teacher distillation and preference RL |
+| 2026-09-09 | [A-JIT: Agentic Just-In-Time Software Construction](https://arxiv.org/abs/2609.10248v1) | agentic software system / self-evolving runtime |
+| 2026-09-09 | [Data-Centric Post-Training for Financial Reasoning: Mining, Distillation, and Verifiable Learning](https://arxiv.org/abs/2609.10113v1) | finance LLM / retention-aware SFT and RL post-training |
+| 2026-09-09 | [Qwen-Audio-3.0-ASR Technical Report](https://arxiv.org/abs/2609.07549v2) | audio / multilingual MoE LLM-based ASR |
+| 2026-09-09 | [Omni Interaction Agent Technical Report](https://arxiv.org/abs/2609.08977v2) | omnimodal agent / real-time full-duplex interaction |
+| 2026-09-09 | [LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation](https://arxiv.org/abs/2608.30935v2) | embodied VLM / ER mid-training, SFT and online RL |
+| 2026-09-08 | [An Open Recipe for IMO Gold: Training Nemotron for Olympiad Mathematics](https://github.com/NVIDIA-NeMo/Skills/blob/778f31a19dc888000e826e1d2b4996aa162b4dfa/recipes/nemotron-imo-tts/paper.pdf) | mathematical reasoning LLM / long-context SFT, RL and ensemble inference |
+| 2026-09-08 | [amad-vlm6: What Merging Two Arabic OCR Models Actually Fixes — and Breaks](https://huggingface.co/amad-iq/amad-vlm6-technical-report/blob/3f93e5027d01744cd9c773416f514795fc2f6f02/README.md) | Arabic OCR VLM / model merging and evaluation |
+| 2026-09-08 | [Practical Evaluation of Qwen3.8-27B on an RTX 3060 12 GB](https://doi.org/10.5281/zenodo.22650802) | LLM inference / consumer-GPU long-context serving and Windows-WSL2 runtime analysis |
+| 2026-09-08 | [Video-MOPD: Multi-Teacher On-Policy Distillation for Video Understanding](https://arxiv.org/abs/2609.09300v1) | video VLM / multi-teacher on-policy distillation and RL |
+| 2026-09-08 | [Prior-free relative 6D pose estimation of multiple object instances](https://arxiv.org/abs/2609.08949v1) | visual foundation model / training-free 6D pose inference |
+| 2026-09-08 | [AuK Technical Report: An Open-Source Foundational Model for Speech Generation and Editing](https://arxiv.org/abs/2609.08936v1) | audio foundation model / speech generation and editing |
+| 2026-09-08 | [Miles v0.1: Production-Level Post-Training](https://arxiv.org/abs/2609.08368v1) | LLM post-training / frontier-scale RL infrastructure |
+| 2026-09-08 | [Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning](https://arxiv.org/abs/2608.16620v3) | agentic LLM / anchored supervised fine-tuning |
+| 2026-09-07 | [CAGE Technical Report Series](https://github.com/google/cybernetic-agent-governance-engine/blob/3a9e5b3fbd1d4fb54aa00257200b19b6b50673a9/docs/technical-report/README.md) | multi-agent governance runtime / safety verification and deployment infrastructure |
+| 2026-09-07 | [Online Draft Co-Training for Speculative Decoding in Large-Scale, Long-Context RL Post-Training](https://arxiv.org/abs/2609.07108v1) | LLM training/inference infrastructure / speculative decoding |
+| 2026-09-07 | [EXAONE Finance 1.0: An Attention-free Time Series Foundation Model for Financial Time Series](https://arxiv.org/abs/2609.04239v2) | financial time-series foundation model / attention-free pretraining |
+| 2026-09-06 | [BinauralVAE: Spatial Audio Reconstruction For World Models](https://arxiv.org/abs/2609.06837v1) | audio world-model representation / binaural VAE training |
+| 2026-09-05 | [ENGRAFT: adding facts to a mixture-of-experts language model by gradient descent on eight rows of its n-gram memory table](https://github.com/fulvian/engraft-ngram/blob/6c32ee87ad5ba652666e17895a3f1a5479ac3380/paper/engraft.pdf) | language-model editing / explicit n-gram memory and inference-engine integration |
+| 2026-09-04 | [Agnes Harness (AGH): A Recoverable, Evidence-First Agent Runtime](https://github.com/AgnesAI-Labs/agnes-harness/blob/f02477e7644d510fbe5f216b7e1045d84891543b/agnes-harness-tech-report.pdf) | agent runtime / recoverable evidence-first model harness |
+| 2026-09-04 | [GE-Act 2.0: Pretraining and Scaling a World-Action Model for Robotic Manipulation](https://arxiv.org/abs/2609.05588v1) | robotics / world-action model pretraining and scaling |
+| 2026-09-04 | [Xiaomi-TabLDM: A Tabular Foundation Model Technical Report](https://arxiv.org/abs/2609.03880v2) | tabular foundation model / synthetic pretraining and test-time scaling |
+| 2026-09-04 | [VisCAD: A Foundation Model Suite with Multimodal Industrial CAD Intelligence](https://arxiv.org/abs/2609.03811v2) | multimodal CAD foundation model / mid- and post-training |
+| 2026-09-03 | [Agnes 2B: A Reproducible and Cost-Aware Two-Stage Pretraining Protocol on Consumer GPU Clusters](https://github.com/AgnesAI-Labs/Agnes-2B-Pretraining/blob/e4193561c901179e0611e3b6d09ae1dffad9b046/Agnes_2B_Pretraining_Technical_Paper.pdf) | language-model pretraining / consumer-GPU distributed training |
+| 2026-09-03 | [A Production Architecture for a Cluster-Shared L3 KV-Cache Pool on PCIe GPU Infrastructure](https://github.com/AgnesAI-Labs/agnes-l3-kv-cache-pool/blob/1e2579f0dcce5aa78e12c18445ab93a781720e20/agnes-l3-kv-cache-report-new.pdf) | LLM inference infrastructure / cluster-shared KV-cache design |
+| 2026-09-03 | [Mitra-v2 Technical Report](https://arxiv.org/abs/2609.04540v1) | tabular foundation model / synthetic pretraining |
+| 2026-09-03 | [Bioinfoysis Technical Report](https://arxiv.org/abs/2609.03871v1) | bioinformatics LLM agents / persistent analysis harness |
+| 2026-09-03 | [How Far Can Synthetic Data Take Thai OCR?](https://arxiv.org/abs/2609.03595v1) | OCR VLM / synthetic-data adaptation |
+| 2026-09-03 | [Building and Evaluating Fixed-Voice Thai TTS from Synthetic Speech](https://arxiv.org/abs/2609.03502v1) | audio / teacher-generated synthetic TTS training |
+| 2026-09-02 | [Sparse MoE Control on Qualcomm Hexagon HTP](https://github.com/gat45/htp-npu-runtime/blob/2709e15f6dbc7a6a43d7859bf722d2ef97a1a652/RAPPORT_CONTROLE_MOE_MARCO_HTP_20260902_EN.md) | LLM inference / mobile NPU sparse-MoE profiling |
+| 2026-09-02 | [VibeVoice-ASR-Streaming Technical Report](https://arxiv.org/abs/2609.02812v1) | audio / streaming LLM-based speaker-attributed ASR |
+| 2026-09-02 | [SpecXMaster Technical Report](https://arxiv.org/abs/2603.23101v4) | agent / deep research |
+| 2026-09-02 | [Pailitao-MMSearch: Building Native E-Commerce Multimodal Search Foundation](https://arxiv.org/abs/2607.17499v2) | e-commerce multimodal search / continual pretraining |
+| 2026-09-01 | [Character Transfer Across Three Model Families](https://www.getsimpledirect.com/research/papers/character-transfer-across-three-model-families) | LLM character alignment / cross-family SFT and DPO |
+| 2026-09-01 | [Runtime Pass Is Not Correctness](https://www.getsimpledirect.com/research/papers/runtime-pass-is-not-correctness) | reasoning LLM / SFT-DPO efficiency post-training and verifier audit |
+| 2026-09-01 | [Sixty Extra Tokens per Second](https://github.com/ucicelos/flashnext-hybrid/blob/e8bfdb53d32f2be8444b96e8b69add844acc2d26/README.md) | LLM inference infrastructure / hybrid APU-eGPU speculative decoding |
+| 2026-09-01 | [Agnes Flash V2.5: Efficient Agentic Post-Training with Verified Environments, Asymmetric PPO, and On-Policy Multi-Teacher Distillation](https://github.com/AgnesAI-Labs/agnes-flash-post-training/blob/2038b7798f6f8a730aa6777ef5ab4db128553a81/Agnes_Flash_V2.5_Technical_Report.pdf) | agentic LLM / proposed SFT asymmetric PPO and on-policy distillation |
+| 2026-09-01 | [Instella-MoE Technical Report](https://arxiv.org/abs/2609.00791v1) | open MoE LLM / full-stack pretraining and post-training |
+| 2026-08-31 | [DreamX-Creator: Democratizing Native Audio-Video Generation at 2K Resolution](https://arxiv.org/abs/2608.31106v1) | native audio-video generation / joint pretraining RL and one-step 2K distillation |
 | 2026-08-31 | [A.X K2 Technical Report](https://arxiv.org/abs/2608.30181v1) | frontier LLM / MoE pretraining and hybrid-reasoning post-training |
-| 2026-08-31 | [LightNav-0: Eliciting VLM Spatial Intelligence for Generalist Embodied Navigation](https://arxiv.org/abs/2608.30935v1) | embodied VLM / ER mid-training, SFT and online RL |
 | 2026-08-31 | [SingProbe Technical Report](https://arxiv.org/abs/2608.30703v1) | LLM safety / intrinsic streaming guardrail training |
 | 2026-08-31 | [TuringLLM: Efficiently Scaling Foundation Models Toward Physical AI](https://arxiv.org/abs/2608.30567v1) | physical-AI LLM / MoE pretraining and long-context continuation |
 | 2026-08-31 | [In-Cell Learning: Language Models That Update Their Own Weights in Sequence Without Changing the File They Ship](https://arxiv.org/abs/2608.20873v3) | LLM continual learning / quantization-cell weight updates |
@@ -55,7 +96,6 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-08-20 | [PILOT Technical Report](https://arxiv.org/abs/2608.18637v2) | agentic recommendation / experiment optimization |
 | 2026-08-19 | [UBio-MolFM: Enabling Biomolecular Dynamics at DFT Accuracy and 10^5 Atoms with One Untuned Potential](https://arxiv.org/abs/2608.18623v1) | biomolecular foundation model / multi-stage quantum pretraining |
 | 2026-08-18 | [Douyin Multimodal Embedding Model Technical Report](https://arxiv.org/abs/2608.02148v3) | multimodal embedding / contrastive pretraining |
-| 2026-08-18 | [Palmyra x6 Technical Report: An Agentic, Tool-Use Model Post-Trained via Anchored Supervised Fine-Tuning](https://arxiv.org/abs/2608.16620v2) | agentic LLM / anchored supervised fine-tuning |
 | 2026-08-18 | [Marco-Voice Technical Report](https://arxiv.org/abs/2508.02038v6) | speech generation / voice cloning and controllable emotion training |
 | 2026-08-17 | [Nesso2-0.4B-Agentic — Technical Report](https://github.com/mii-llm/zagreus-nesso-slm/blob/49e1b232ffde307e63370842d635e47b4f906452/nesso2/report.html) | bilingual agentic compact LLM / continued pretraining, context extension and SFT |
 | 2026-08-16 | [UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations](https://arxiv.org/abs/2608.15930v1) | GUI agent / environment-grounded SFT and online RL |
@@ -92,6 +132,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-08-07 | [CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights](https://arxiv.org/abs/2608.06763v1) | LLM inference / 1-8-bit post-training weight quantization |
 | 2026-08-05 | [GrandCode: Achieving Grandmaster Level in Competitive Programming via Agentic Reinforcement Learning](https://arxiv.org/abs/2604.02721v3) | competitive programming agentic RL |
 | 2026-08-05 | [K-EXAONE 2.0 Technical Report](https://arxiv.org/abs/2608.04505v1) | multilingual MoE LLM / upcycled pretraining and agentic post-training |
+| 2026-08-04 | [TAOT: Topology-Aware Optimal Transport for Dynamic Expert Replica Placement in MoE Training](https://arxiv.org/abs/2608.03676v1) | MoE training infrastructure / topology-aware expert replication |
 | 2026-08-04 | [SwanTale: Unified Multi-Speaker Speech and Audio Generation for Instruct and Zero-Shot Tasks](https://arxiv.org/abs/2608.02023v2) | audio generation / curriculum and GRPO post-training |
 | 2026-08-04 | [Opt.Gear Technical Report](https://arxiv.org/abs/2608.01034v2) | edge LLM / pretraining and supervised fine-tuning |
 | 2026-08-04 | [LocAnyMed: Vision-Language Grounding for Multimodal Medical Images](https://arxiv.org/abs/2608.03322v1) | medical VLM / full-parameter SFT and rationale training |
@@ -143,11 +184,9 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-07-21 | [HOMIE: Human-object Centric Video Personalization via Multimodal Intelligent Enhancement](https://arxiv.org/abs/2607.18217v2) | video generation / subject personalization |
 | 2026-07-20 | [Hy-Embodied-0.5-VLA: From Vision-Language-Action Models to a Real-World Robot Learning Stack](https://arxiv.org/abs/2606.14409v2) | robotics / VLA |
 | 2026-07-20 | [FlashMemory-DeepSeek-V4: Lightning Index Ultra-Long Context via Lookahead Sparse Attention](https://arxiv.org/abs/2606.09079v3) | long-context / sparse attention |
-| 2026-07-20 | [SpecXMaster Technical Report](https://arxiv.org/abs/2603.23101v3) | agent / deep research |
 | 2026-07-20 | [Surprise Forcing: What to Remember, When to Skip in Long Video Generation](https://arxiv.org/abs/2607.18436v1) | video generation / inference optimization |
 | 2026-07-20 | [AlayaWorld: Interactive Long-Horizon World Modeling -- Full Technical Report](https://arxiv.org/abs/2607.18367v1) | world model / video generation |
 | 2026-07-20 | [PGN: Design and Implementation of a Vision-Language Navigation System Based on Pangu Multimodal Foundation Model](https://arxiv.org/abs/2607.17806v1) | vision-language navigation / multimodal adaptation |
-| 2026-07-20 | [Pailitao-MMSearch: Building Native E-Commerce Multimodal Search Foundation](https://arxiv.org/abs/2607.17499v1) | e-commerce multimodal search / continual pretraining |
 | 2026-07-20 | [Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent](https://arxiv.org/abs/2404.11459v3) | on-device multimodal agent |
 | 2026-07-19 | [TimeLens2: Generalist Video Temporal Grounding with Multimodal LLMs](https://arxiv.org/abs/2607.17423v1) | video MLLM / temporal grounding |
 | 2026-07-18 | [Boogu-Image-0.1: Boosting Open Agentic Multimodal Generation via Understanding under a Minimal Budget](https://arxiv.org/abs/2607.13125v2) | unified multimodal / image generation and editing |
