@@ -1,7 +1,7 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-780-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-786-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
 [![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--10--04-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
@@ -14,10 +14,11 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 - Official-only reports use a stable slug in `id`; `categories` is left blank when no arXiv classification exists.
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `780`
+- Total selected: `786`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
+| 2026-10-03 | [Kolibri: A Sovereign European Model on the Pareto Frontier](https://aleph-alpha.com/downloads/tech-report.pdf) | bilingual MoE LLM / pretraining, long-context extension and agentic SFT-RL |
 | 2026-10-01 | [VISTA: A Visual Harness for Reasoning in an Interactive World](https://arxiv.org/abs/2610.02200v1) | visual agent harness / long-horizon visual memory |
 | 2026-10-01 | [Invent a Dataset: Measuring dataset generation abilities with zero seed](https://arxiv.org/abs/2610.01674v1) | LLM data infrastructure / zero-seed synthetic post-training data |
 | 2026-10-01 | [Permutation-Robust Decision Modeling with Candidate-Independent Block-Causal Attention](https://arxiv.org/abs/2610.01601v1) | LLM decision-model architecture / permutation-robust attention |
@@ -87,6 +88,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-09-19 | [Block-Sparse Attention with Semantic-Geometric Decoupled Routing](https://arxiv.org/abs/2609.22884v1) | LLM inference / semantic-geometric block-sparse attention |
 | 2026-09-19 | [Causilo Technical Report](https://arxiv.org/abs/2609.22866v1) | tabular foundation model / synthetic pretraining and linear-cost summaries |
 | 2026-09-19 | [StepAudio 3 Realtime Technical Report](https://arxiv.org/abs/2609.14005v2) | realtime audio-language foundation model / think-while-speaking duplex interaction |
+| 2026-09-19 | [Tsubaki.3: An Anime Multimodal Foundation Model](https://pixai.art/en/tsubaki-3/report) | anime multimodal foundation model / unified pretraining and style-preserving SFT-RL |
 | 2026-09-18 | [SEA-LION-v4.8: A Technical Report](https://arxiv.org/abs/2609.18310v3) | Southeast Asian LLM / continued pretraining and on-policy distillation |
 | 2026-09-17 | [DeepSeek-V4.1-Flash: Pushing the Limits of KV Cache Compression](https://arxiv.org/abs/2609.19969v1) | multimodal MoE / KV-cache-efficient long-context pretraining and agentic post-training |
 | 2026-09-17 | [GigaBrain-WBC-0.5: A Behavior World Model for Robust Humanoid Whole-Body Tracking with Environment Interaction](https://arxiv.org/abs/2608.18234v4) | embodied behavior world model / PPO and terrain-aware training |
@@ -332,6 +334,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-07-10 | [Audar-TTS-V1: A Multilingual, Arabic-First Expressive Speech Synthesis Foundation Model](https://github.com/AudarAI/Audar-TTS-V1/blob/bfbb47c4448d9fd771388b30b4c67a8f4d062aa1/report/Audar-TTS-V1-Technical-Report.pdf) | multilingual TTS foundation model / pretraining and preference alignment |
 | 2026-07-09 | [Behavior Foundations for Quadruped Robots: ABot-C0 Technical Report](https://arxiv.org/abs/2607.07370v2) | robotics / behavior foundation model |
 | 2026-07-09 | [DeepTutor: Towards Agentic Personalized Tutoring](https://arxiv.org/abs/2604.26962v3) | personalized tutoring agent |
+| 2026-07-09 | [DM0.5: Designed for the Open World, Where Generalization Emerges.](https://www.dexmal.com/blog/dm0.5) | embodied foundation model / open-world VLA pretraining and cross-embodiment adaptation |
 | 2026-07-08 | [Infinite Worlds with Versatile Interactions](https://arxiv.org/abs/2607.07534v1) | interactive world model / causal pretraining and distillation |
 | 2026-07-08 | [Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence](https://arxiv.org/abs/2607.07675v1) | embodied video foundation model / MoE pretraining |
 | 2026-07-07 | [The Power of Backdoor Absorption in Community Training](https://arxiv.org/abs/2607.06643v1) | large-model training / security |
@@ -574,6 +577,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-04-19 | [Jupiter-N Technical Report](https://arxiv.org/abs/2604.17429v1) | agent / deep research |
 | 2026-04-19 | [Knows: Agent-Native Structured Research Representations](https://arxiv.org/abs/2604.17309v1) | AI-assisted research / agent format |
 | 2026-04-18 | [GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization (V1.0)](https://arxiv.org/abs/2604.17091v1) | agent runtime / memory and self-evolution |
+| 2026-04-18 | [Love Game: Full Training Report](https://huggingface.co/sanjuhs/love-game-smollm2-135m-suite) | compact LLM / full-weight SFT, DPO, GRPO and PPO post-training |
 | 2026-04-17 | [DINOv3 Beats Specialized Detectors: A Simple Foundation Model Baseline for Image Forensics](https://arxiv.org/abs/2604.16083v1) | visual foundation model / forensics |
 | 2026-04-17 | [Mind DeepResearch Technical Report](https://arxiv.org/abs/2604.14518v2) | agent / deep research |
 | 2026-04-16 | [Serving Chain-structured Jobs with Large Memory Footprints with Application to Large Foundation Model Serving](https://arxiv.org/abs/2604.14993v1) | foundation model serving |
@@ -644,6 +648,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-03-18 | [CytoSyn: a Foundation Diffusion Model for Histopathology -- Tech Report](https://arxiv.org/abs/2603.18089v1) | histopathology diffusion foundation model |
 | 2026-03-18 | [CRE-T1 Preview Technical Report: Beyond Contrastive Learning for Reasoning-Intensive Retrieval](https://arxiv.org/abs/2603.17387v1) | LLM inference / compression |
 | 2026-03-18 | [Ruyi2.5 Technical Report](https://arxiv.org/abs/2603.17311v1) | multimodal / VLM |
+| 2026-03-18 | [A Multimodal Large Language Model for Japanese Chart and Table Understanding](https://jp.ricoh.com/-/Media/Ricoh/Sites/jp_ricoh/technology/techreport/48/pdf/RTR48a06.pdf) | Japanese document LMM / synthetic chart-table data and three-stage multimodal adaptation |
 | 2026-03-17 | [IQuest-Coder-V1 Technical Report](https://arxiv.org/abs/2603.16733v1) | code / software agent |
 | 2026-03-16 | [Attention Residuals](https://arxiv.org/abs/2603.15031v1) | attention architecture |
 | 2026-03-16 | [Chart-R1: Chain-of-Thought Supervision and Reinforcement for Advanced Chart Reasoner](https://arxiv.org/abs/2507.15509v3) | chart reasoning / VLM |
@@ -704,6 +709,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-02-16 | [EmbeWebAgent: Embedding Web Agents into Any Customized UI](https://arxiv.org/abs/2602.14865v1) | web agent / GUI agent |
 | 2026-02-16 | [Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1.5](https://arxiv.org/abs/2602.14457v1) | frontier AI risk management |
 | 2026-02-16 | [The Joy and Pain of Training an LLM from Scratch: A Technical Report on the Development of the Zagreus and Nesso Model Families](https://github.com/mii-llm/zagreus-nesso-slm/blob/49e1b232ffde307e63370842d635e47b4f906452/README.md) | bilingual compact LLM / from-scratch pretraining and instruction post-training |
+| 2026-02-16 | [DM0: An Embodied-Native Vision-Language-Action Model towards Physical AI](https://arxiv.org/abs/2602.14974v1) | embodied foundation model / unified VLM-action pretraining, mid-training and post-training |
 | 2026-02-15 | [Eureka-Audio: Triggering Audio Intelligence in Compact Language Models](https://arxiv.org/abs/2602.13954v1) | audio / compact audio language model |
 | 2026-02-13 | [FiMI: A Domain-Specific Language Model for Indian Finance Ecosystem](https://arxiv.org/abs/2602.05794v2) | domain / multilingual LLM |
 | 2026-02-13 | [RynnBrain: Open Embodied Foundation Models](https://arxiv.org/abs/2602.14979v1) | embodied foundation model / multimodal pretraining and post-training |
