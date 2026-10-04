@@ -1,7 +1,7 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-779-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-780-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
 [![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--10--04-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
@@ -14,7 +14,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 - Official-only reports use a stable slug in `id`; `categories` is left blank when no arXiv classification exists.
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `779`
+- Total selected: `780`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
@@ -311,6 +311,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-07-16 | [xHC: Expanded Hyper-Connections](https://arxiv.org/abs/2607.14530v1) | LLM pretraining architecture / residual scaling |
 | 2026-07-16 | [Native Video-Action Pretraining for Generalizable Robot Control](https://arxiv.org/abs/2607.08639v2) | embodied video-action foundation model / robot control |
 | 2026-07-16 | [In-Place Tokenizer Expansion for Pre-trained LLMs](https://arxiv.org/abs/2607.15232v1) | LLM tokenizer adaptation / continued pretraining |
+| 2026-07-16 | [ISABEL: A Method for Training Competitive Sub-150M Language Models from Scratch](https://ideoa.co.uk/isabel-method.html) | compact language model / from-scratch pretraining and benchmark-clean fine-tuning |
 | 2026-07-15 | [Infinity-Parser2 Technical Report](https://arxiv.org/abs/2607.07836v3) | OCR / document understanding |
 | 2026-07-15 | [RxBrain: Embodied Cognition Foundation Model with Joint Language-Visual Reasoning and Imagination](https://arxiv.org/abs/2607.14187v1) | embodied foundation model / multimodal planning |
 | 2026-07-15 | [OvisOCR2 Technical Report](https://arxiv.org/abs/2607.13639v1) | OCR / document understanding |
