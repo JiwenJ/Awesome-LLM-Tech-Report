@@ -1,20 +1,21 @@
 # Awesome LLM Tech Report
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
-[![Reports](https://img.shields.io/badge/Reports-828-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
+[![Reports](https://img.shields.io/badge/Reports-831-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
 [![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--10--15-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
 
 Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`; the abstract or arXiv comment explicitly self-identifies the work as a technical report / tech report; or the official report PDF, publisher page, or originating lab page explicitly labels it as a technical report. The topic must match large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
 
+- Additional model-training papers: Voxtral TTS, GLM-5V-Turbo, and HunyuanOCR-1.5 are included as complete official model-development papers with substantive training details. Their CSV report_type preserves this distinction without asserting an explicit Technical Report label.
 - Source: arXiv API/search; official publisher/lab pages and report PDFs are used to verify report status when arXiv metadata omits it.
 - Current audit window: `2026-01-01` to `2026-10-15`
 - Date convention: `published` records the arXiv version date used by the audit (the latest revision date when a revision exists). For reports without an arXiv record, it records the official release date.
 - Official-only reports use a stable slug in `id`; `categories` is left blank when no arXiv classification exists.
 - Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
 - CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `828`
+- Total selected: `831`
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
@@ -129,6 +130,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-09-17 | [JEPA-Anything: Learning Predictive Models across Different Worlds](https://arxiv.org/abs/2609.20800v1) | scientific world model / orthogonal predictive-factor latent pretraining |
 | 2026-09-17 | [Design of the IBM Granite 5.0 TurboCTC ASR Model](https://arxiv.org/abs/2609.20104v1) | compact speech foundation model / CTC training, LLM distillation and robust adaptation |
 | 2026-09-17 | [WeVisDoc: From Coverage to Capability for Robust End-to-End Document Parsing](https://arxiv.org/abs/2609.20423v1) | document-parsing VLM / broad-coverage SFT and residual-aware refinement |
+| 2026-09-17 | [HunyuanOCR-1.5: Making Lightweight OCR VLMs Faster and Better](https://arxiv.org/abs/2607.04884v3) | OCR-specialized VLM / capability-expansion pretraining, SFT and task-specific RL |
 | 2026-09-16 | [Qwen-Music Technical Report](https://arxiv.org/abs/2607.11699v3) | audio / music generation |
 | 2026-09-16 | [PhysVGGT: Feed-Forward Dense Physical Property Estimation from A Single Image](https://arxiv.org/abs/2609.18920v1) | visual foundation model / dense physical-property adaptation |
 | 2026-09-16 | [RayOrch: Programming and Executing Lineage-Controlled Multi-Grain Dataflows for Foundation-Model Data Preparation](https://arxiv.org/abs/2609.18703v1) | foundation-model data infrastructure / lineage-preserving distributed execution |
@@ -549,6 +551,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-05-12 | [DWDP: Distributed Weight Data Parallelism for High-Performance LLM Inference on NVL72](https://arxiv.org/abs/2604.01621v2) | LLM inference infrastructure |
 | 2026-05-12 | [Qwen-Scope: Turning Sparse Features into Development Tools for Large Language Models](https://arxiv.org/abs/2605.11887v1) | LLM interpretability / SAE-assisted training and controllable inference |
 | 2026-05-12 | [SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture](https://arxiv.org/abs/2605.12500v1) | native unified multimodal model / understanding warmup, generation pretraining and SFT-RL-distillation |
+| 2026-05-12 | [GLM-5V-Turbo: Toward a Native Foundation Model for Multimodal Agents](https://arxiv.org/abs/2604.26752v3) | native multimodal foundation model / vision pretraining and multi-task SFT-RL |
 | 2026-05-11 | [Qwen-Image-2.0 Technical Report](https://arxiv.org/abs/2605.10730v1) | image generation |
 | 2026-05-11 | [Phoenix-VL 1.5 Medium Technical Report](https://arxiv.org/abs/2605.10391v1) | multimodal / VLM |
 | 2026-05-11 | [Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence](https://arxiv.org/abs/2604.24954v2) | multimodal LLM / omni-modal post-training |
@@ -649,6 +652,7 @@ Inclusion rule: the paper title contains `Technical Report`, `Training Report`, 
 | 2026-04-06 | [MedGemma Technical Report](https://arxiv.org/abs/2507.05201v4) | medical multimodal foundation model |
 | 2026-04-06 | [Voxtral Realtime](https://arxiv.org/abs/2602.11298v3) | audio / streaming ASR |
 | 2026-04-06 | [Embodied-R1: Reinforced Embodied Reasoning for General Robotic Manipulation](https://arxiv.org/abs/2508.13998v2) | embodied foundation model / VLA |
+| 2026-04-06 | [Voxtral TTS](https://arxiv.org/abs/2603.25551v2) | multilingual speech generation / codec training, hybrid AR-flow pretraining and DPO |
 | 2026-04-03 | [JointFM-0.1: A Foundation Model for Multi-Target Joint Distributional Prediction](https://arxiv.org/abs/2603.20266v2) | domain foundation model |
 | 2026-04-03 | [Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini](https://arxiv.org/abs/2603.24591v2) | LLM code-generation system / semantic XR runtime and simulator-to-device prototyping |
 | 2026-04-02 | [T5Gemma-TTS Technical Report](https://arxiv.org/abs/2604.01760v1) | audio / speech model |
