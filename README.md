@@ -7,8 +7,7 @@
 [![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--10--15-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
 A curated, continuously audited list of technical reports from large language models and foundation models,<br>
-covering LLMs, multimodal, speech, video, robotics and training infrastructure.<br>
-Full metadata lives in [`data/reports.csv`](./data/reports.csv).
+covering LLMs, multimodal, speech, video, robotics and training infrastructure.
 
 </div>
 
