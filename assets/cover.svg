@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Awesome LLM Tech Report</title>
+  <desc id="desc">Curated technical reports of large language models and foundation models.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#171236"/>
+    </linearGradient>
+    <linearGradient id="accent" gradientUnits="userSpaceOnUse" x1="80" y1="0" x2="520" y2="0">
+      <stop offset="0" stop-color="#ff6b6b"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="bars" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#6f42c1"/>
+      <stop offset="1" stop-color="#e5484d"/>
+    </linearGradient>
+    <radialGradient id="glowPurple">
+      <stop offset="0" stop-color="#6f42c1" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#6f42c1" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRed">
+      <stop offset="0" stop-color="#b31b1b" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#b31b1b" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.07"/>
+    </pattern>
+    <clipPath id="frame">
+      <rect width="1200" height="400" rx="20"/>
+    </clipPath>
+    <clipPath id="sheet">
+      <rect x="820" y="55" width="220" height="290" rx="10"/>
+    </clipPath>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <!-- Background -->
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <rect width="1200" height="400" fill="url(#dots)"/>
+    <circle cx="930" cy="200" r="340" fill="url(#glowPurple)"/>
+    <circle cx="140" cy="400" r="320" fill="url(#glowRed)"/>
+
+    <!-- Headline -->
+    <text x="80" y="100" class="mono" font-size="14" font-weight="600" letter-spacing="3" fill="#a5b4fc">CURATED · AUDITED · OPEN DATA</text>
+    <text x="78" y="172" class="sans" font-size="64" font-weight="800" fill="#ffffff">Awesome LLM</text>
+    <text x="78" y="244" class="sans" font-size="64" font-weight="800" fill="url(#accent)">Tech Report</text>
+    <text x="80" y="292" class="sans" font-size="20" fill="#c9d1d9">Technical reports behind large language &amp; foundation models</text>
+
+    <!-- Keyword chips -->
+    <g class="mono" font-size="13" fill="#e6edf3">
+      <rect x="80" y="318" width="150" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="155" y="338" text-anchor="middle">Technical Report</text>
+      <rect x="242" y="318" width="142" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="313" y="338" text-anchor="middle">Training Report</text>
+      <rect x="396" y="318" width="112" height="30" rx="15" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.18"/>
+      <text x="452" y="338" text-anchor="middle">Tech Report</text>
+    </g>
+
+    <!-- Paper stack -->
+    <rect x="820" y="55" width="220" height="290" rx="10" fill="#1d2142" stroke="#ffffff" stroke-opacity="0.12" transform="rotate(-10 930 200)"/>
+    <rect x="820" y="55" width="220" height="290" rx="10" fill="#272c58" stroke="#ffffff" stroke-opacity="0.16" transform="rotate(6 930 200)"/>
+
+    <!-- Front sheet -->
+    <g transform="rotate(-2 930 200)">
+      <rect x="820" y="55" width="220" height="290" rx="10" fill="#f8fafc" filter="url(#shadow)"/>
+      <g clip-path="url(#sheet)">
+        <rect x="820" y="55" width="220" height="8" fill="#b31b1b"/>
+      </g>
+      <text x="840" y="90" class="mono" font-size="11" font-weight="700" letter-spacing="2" fill="#b31b1b">TECHNICAL REPORT</text>
+      <rect x="840" y="104" width="170" height="10" rx="5" fill="#1e293b"/>
+      <rect x="840" y="120" width="118" height="10" rx="5" fill="#1e293b"/>
+      <rect x="840" y="140" width="88" height="6" rx="3" fill="#94a3b8"/>
+      <line x1="840" y1="158" x2="1020" y2="158" stroke="#e2e8f0" stroke-width="1.5"/>
+      <rect x="840" y="170" width="180" height="5" rx="2.5" fill="#cbd5e1"/>
+      <rect x="840" y="182" width="172" height="5" rx="2.5" fill="#cbd5e1"/>
+      <rect x="840" y="194" width="180" height="5" rx="2.5" fill="#cbd5e1"/>
+      <rect x="840" y="206" width="132" height="5" rx="2.5" fill="#cbd5e1"/>
+
+      <!-- Scaling bars -->
+      <rect x="840" y="224" width="84" height="62" rx="6" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <rect x="848" y="262" width="9" height="18" rx="2" fill="url(#bars)"/>
+      <rect x="862" y="254" width="9" height="26" rx="2" fill="url(#bars)"/>
+      <rect x="876" y="248" width="9" height="32" rx="2" fill="url(#bars)"/>
+      <rect x="890" y="240" width="9" height="40" rx="2" fill="url(#bars)"/>
+      <rect x="904" y="232" width="9" height="48" rx="2" fill="url(#bars)"/>
+
+      <!-- Loss curve -->
+      <rect x="934" y="224" width="86" height="62" rx="6" fill="#f1f5f9" stroke="#e2e8f0"/>
+      <path d="M942 232 C 958 266, 978 274, 1012 278" fill="none" stroke="#6f42c1" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M942 240 C 960 270, 980 276, 1012 281" fill="none" stroke="#e5484d" stroke-width="1.5" stroke-linecap="round" stroke-opacity="0.6" stroke-dasharray="3 3"/>
+
+      <rect x="840" y="302" width="180" height="5" rx="2.5" fill="#cbd5e1"/>
+      <rect x="840" y="314" width="146" height="5" rx="2.5" fill="#cbd5e1"/>
+    </g>
+
+    <!-- Floating topic tags -->
+    <g class="mono" font-size="12" fill="#e6edf3">
+      <rect x="1062" y="86" width="104" height="26" rx="13" fill="#6f42c1" fill-opacity="0.35" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <text x="1114" y="103" text-anchor="middle">Pretraining</text>
+      <rect x="1074" y="208" width="48" height="26" rx="13" fill="#b31b1b" fill-opacity="0.35" stroke="#ff6b6b" stroke-opacity="0.5"/>
+      <text x="1098" y="225" text-anchor="middle">RL</text>
+      <rect x="1086" y="300" width="58" height="26" rx="13" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="1115" y="317" text-anchor="middle">MoE</text>
+      <rect x="682" y="92" width="96" height="26" rx="13" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.25"/>
+      <text x="730" y="109" text-anchor="middle">Multimodal</text>
+      <rect x="704" y="300" width="72" height="26" rx="13" fill="#6f42c1" fill-opacity="0.35" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <text x="740" y="317" text-anchor="middle">Agents</text>
+    </g>
+  </g>
+
+  <rect x="0.5" y="0.5" width="1199" height="399" rx="19.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+</svg>

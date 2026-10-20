@@ -1,21 +1,16 @@
-# Awesome LLM Tech Report
+<div align="center">
+
+<img src="./assets/cover.svg" alt="Awesome LLM Tech Report" width="100%">
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 [![Reports](https://img.shields.io/badge/Reports-831-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
 [![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--10--15-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
-Curated large-model `Technical Report`, `Training Report`, and `Tech Report` papers.
+A curated, continuously audited list of technical reports from large language models and foundation models,<br>
+covering LLMs, multimodal, speech, video, robotics and training infrastructure.<br>
+Full metadata lives in [`data/reports.csv`](./data/reports.csv).
 
-Inclusion rule: the paper title contains `Technical Report`, `Training Report`, or `Tech Report`; the abstract or arXiv comment explicitly self-identifies the work as a technical report / tech report; or the official report PDF, publisher page, or originating lab page explicitly labels it as a technical report. The topic must match large models, foundation models, model systems, or closely related training/inference infrastructure. Broader training papers, challenge solution reports, and benchmark-only reports are intentionally excluded from the main table.
-
-- Additional model-training papers: Voxtral TTS, GLM-5V-Turbo, and HunyuanOCR-1.5 are included as complete official model-development papers with substantive training details. Their CSV report_type preserves this distinction without asserting an explicit Technical Report label.
-- Source: arXiv API/search; official publisher/lab pages and report PDFs are used to verify report status when arXiv metadata omits it.
-- Current audit window: `2026-01-01` to `2026-10-15`
-- Date convention: `published` records the arXiv version date used by the audit (the latest revision date when a revision exists). For reports without an arXiv record, it records the official release date.
-- Official-only reports use a stable slug in `id`; `categories` is left blank when no arXiv classification exists.
-- Retention: Previously curated older entries are retained instead of removed when the rolling audit window advances.
-- CSV: [data/reports.csv](./data/reports.csv)
-- Total selected: `831`
+</div>
 
 | Date | Technical Report | Direction |
 | --- | --- | --- |
