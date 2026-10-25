@@ -6,7 +6,7 @@
 [![Reports](https://img.shields.io/badge/Reports-937-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
 [![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--10--20-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
-A curated, continuously audited list of technical reports from large language models and foundation models,<br>
+A curated list of technical reports from large language models and foundation models,<br>
 covering LLMs, multimodal, speech, video, robotics and training infrastructure.
 
 </div>
