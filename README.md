@@ -3,6 +3,7 @@
 <img src="./assets/cover.svg" alt="Awesome LLM Tech Report" width="100%">
 
 [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+[![GitHub](https://img.shields.io/badge/GitHub-JiwenJ%2FAwesome--LLM--Tech--Report-181717.svg?style=flat-square&logo=github)](https://github.com/JiwenJ/Awesome-LLM-Tech-Report)
 [![Reports](https://img.shields.io/badge/Reports-937-b31b1b.svg?style=flat-square&logo=arxiv&logoColor=white)](./data/reports.csv)
 [![Coverage](https://img.shields.io/badge/Window-2026--01--01_to_2026--10--20-6f42c1.svg?style=flat-square&logo=bookstack&logoColor=white)](./data/reports.csv)
 
